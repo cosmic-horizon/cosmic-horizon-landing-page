@@ -53,7 +53,7 @@ class ServicesOne extends React.Component {
         const ServiceSeparator = styled.div`
             height: 5px;
             width: 50px;
-            background-color: #04e5e5;
+            background-color: #f100ff;
             margin-bottom: 10px;
             margin: auto;
          `
@@ -82,7 +82,7 @@ class ServicesOne extends React.Component {
                 height: 5px;
                 width: 5px;
                 margin-right: 10px;
-                background-color:#04e5e5;
+                background-color:#f100ff;
                 position: relative;
                 bottom: 2.5px;
             }
@@ -125,7 +125,7 @@ class ServicesOne extends React.Component {
                                                 <img src={this.props.web.childImageSharp.fluid.src} alt="Mobile App Development" />
                                         </ServiceIcon>
                                         <ServiceHeading>
-                                            Web  Development
+                                            Phase 2
                                         </ServiceHeading>
                                         <ServiceSeparator/>
                                         <ServiceList>
@@ -149,7 +149,7 @@ class ServicesOne extends React.Component {
                                                 <img src={this.props.email.childImageSharp.fluid.src} alt="Mobile App Development" />
                                         </ServiceIcon>
                                         <ServiceHeading>
-                                            Email Marketing
+                                            Phase 3
                                         </ServiceHeading>
                                         <ServiceSeparator/>
                                         <ServiceList>
@@ -173,7 +173,7 @@ class ServicesOne extends React.Component {
                                                 <img src={this.props.seo.childImageSharp.fluid.src} alt="Mobile App Development" />
                                         </ServiceIcon>
                                         <ServiceHeading>
-                                            Search Engine Optimization
+                                            Phase 4
                                         </ServiceHeading>
                                         <ServiceSeparator/>
                                         <ServiceList>
@@ -197,7 +197,7 @@ class ServicesOne extends React.Component {
                                                 <img src={this.props.network.childImageSharp.fluid.src} alt="Mobile App Development" />
                                         </ServiceIcon>
                                         <ServiceHeading>
-                                            Network Management
+                                            Phase 5
                                         </ServiceHeading>
                                         <ServiceSeparator/>
                                         <ServiceList>
@@ -221,7 +221,7 @@ class ServicesOne extends React.Component {
                                                     <img src={this.props.ui.childImageSharp.fluid.src} alt="Mobile App Development" />
                                             </ServiceIcon>
                                             <ServiceHeading>
-                                                UI/UX Development
+                                                Phase 6
                                             </ServiceHeading>
                                             <ServiceSeparator/>
                                             <ServiceList>
