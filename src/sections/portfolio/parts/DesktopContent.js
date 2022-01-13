@@ -40,10 +40,7 @@ class DesktopContent extends React.Component {
             transition: .5s;
             text-align: center;
             display: flex;
-            &.active {
-                animation: ${Animation} 1s forwards;
-                background-image: linear-gradient(to top, rgba(4,229,229,1), rgba(255, 255, 255, 0));
-            }
+ 
         `
 
         return (
