@@ -92,27 +92,27 @@ class ServicesOne extends React.Component {
             <Section id="services">
                 <ServiceContainer>
                     <Container>
-                        <AnimatedHeading text="Our Services" />
+                        <AnimatedHeading text="Cosmic Wormhole" />
                         <Row>
                             <Col md={4}>
                                 <AnimationContainer animation="fadeInLeft" delay={200}>
                                         <ServiceElement>
                                             <ServiceIcon>
-                                                    <img src={this.props.mobile.childImageSharp.fluid.src} alt="Mobile App Development" />
+                                                    <img src={this.props.mobile.childImageSharp.fluid.src} alt="Phase 1" />
                                             </ServiceIcon>
                                             <ServiceHeading>
-                                                Mobile App Development
+                                                Phase 1
                                             </ServiceHeading>
                                             <ServiceSeparator/>
                                             <ServiceList>
                                                 <ServiceListElement>
-                                                    Lorem ipsum dolor sit amet
+                                                    Testnets
                                                 </ServiceListElement>
                                                 <ServiceListElement>
-                                                    In vitae ultricies lacus vitae
+                                                    NFT Sales
                                                 </ServiceListElement>
                                                 <ServiceListElement>
-                                                    Pellentesque blandit libero
+                                                    Community Growth
                                                 </ServiceListElement>
                                             </ServiceList>
                                         </ServiceElement>
