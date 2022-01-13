@@ -94,7 +94,7 @@ class Animated_Heading extends React.Component {
         return this.props.text.split(" ").map((value, index) => {
             return value.split("").map((v, i) => {
                 ++time
-                return i+1 !== value.length ? <AnimatedLetter key={i} style={{animationDelay: `${time*100}ms`, color: index % 2 !== 0 || this.props.color ? "#04e5e5" : "#fff"}} className={!this.state.animation_complete ? this.state.animate ? "animate" : "" : "animation_complete"}>{v}</AnimatedLetter> : <span key={i}><AnimatedLetter style={{animationDelay: `${time*100}ms`, color: index % 2 !== 0 || this.props.color ? "#04e5e5" : "#fff"}} className={!this.state.animation_complete ? this.state.animate ? "animate" : "" : "animation_complete"}>{v}</AnimatedLetter><Space /></span>
+                return i+1 !== value.length ? <AnimatedLetter key={i} style={{animationDelay: `${time*100}ms`, color: index % 2 !== 0 || this.props.color ? "#f100ff" : "#fff"}} className={!this.state.animation_complete ? this.state.animate ? "animate" : "" : "animation_complete"}>{v}</AnimatedLetter> : <span key={i}><AnimatedLetter style={{animationDelay: `${time*100}ms`, color: index % 2 !== 0 || this.props.color ? "#f100ff" : "#fff"}} className={!this.state.animation_complete ? this.state.animate ? "animate" : "" : "animation_complete"}>{v}</AnimatedLetter><Space /></span>
             })
         })
     }

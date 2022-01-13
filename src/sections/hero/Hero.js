@@ -188,7 +188,7 @@ class Hero extends React.Component {
         const ServiceSeparator = styled.div`
             height: 5px;
             width: 50px;
-            background-color: #04e5e5;
+            background-color: #f100ff;
             margin-bottom: 10px;
         `
 
