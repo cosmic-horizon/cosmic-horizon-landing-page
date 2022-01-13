@@ -221,9 +221,8 @@ class Hero extends React.Component {
                                     <Typewriter
                                         options={{
                                         strings: [
-                                            'Blockchain',
-                                            'Space Trading',
-                                            'Game',
+                                            'Cosmos SDK Powered',
+                                            'Space Trading Game'
                                         ],
                                         autoStart: true,
                                         loop: true,
