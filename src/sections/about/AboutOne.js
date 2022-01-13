@@ -116,7 +116,7 @@ class AboutOne extends React.Component {
                               }
                             },
                             "color": {
-                              "value": ["#03afaf","#04e5e5"]
+                              "value": ["#741d8c","#f100ff"]
                             },
                             "shape": {
                               "type": "circle",
