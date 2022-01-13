@@ -229,7 +229,7 @@ class Hero extends React.Component {
                                         }}
                                     />
                                 </Type>
-                                <br/>
+                                <br/><br/><br/><br/><br/>
                             </Content>
                         </Container>
                     </Overlay>
