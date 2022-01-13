@@ -299,7 +299,7 @@ export default props => (
             }
           }
         }
-        webexpertIcon: file(relativePath: {eq: "icons/web.png"}) {
+        webexpertIcon: file(relativePath: {eq: "icons/cosmos-logo-vertical-dark.png"}) {
           childImageSharp {
             fluid(maxWidth: 500) {
               src
