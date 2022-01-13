@@ -13,7 +13,7 @@ class PortfolioItem extends React.Component {
     showContent() {
         setTimeout(() => {
             this.child.enable()
-            document.getElementById(`portfolio-item-${this.props.index}`).classList.add("blue-shadow");
+            document.getElementById(`portfolio-item-${this.props.index}`).classList.add("pink-shadow");
         }, 800)
     }
 
