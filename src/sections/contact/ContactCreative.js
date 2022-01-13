@@ -112,8 +112,8 @@ class ContactCreative extends React.Component {
                                 Email
                               </InfoTitle>
                               <InfoLinkContainer>
-                                <InfoLink href="mailto:email@yoursite.com">
-                                  email@yoursite.com
+                                <InfoLink target="_blank" href="mailto:info@cosmic-horizon.com">
+                                  info@cosmic-horizon.com
                                 </InfoLink>
                               </InfoLinkContainer>
                             </Info>
@@ -128,11 +128,11 @@ class ContactCreative extends React.Component {
                             </IconContainer>
                             <Info>
                               <InfoTitle>
-                                Phone
+                                Discord
                               </InfoTitle>
                               <InfoLinkContainer>
-                                <InfoLink href="tel:+(123)123-1234">
-                                  (123) 456-7890
+                                <InfoLink target="_blank" href="https://discord.gg/4Cj23MJHBM">
+                                  Cosmic Horizon Official Discord
                                 </InfoLink>
                               </InfoLinkContainer>
                             </Info>
@@ -147,11 +147,11 @@ class ContactCreative extends React.Component {
                             </IconContainer>
                             <Info>
                               <InfoTitle>
-                                Address
+                                Telegram
                               </InfoTitle>
                               <InfoLinkContainer>
-                                <InfoLink target="_blank" href="https://maps.google.com/maps?ll=53.343244,-6.259338&z=14&t=m&hl=en&gl=US&mapclient=embed&q=1%20Grafton%20Street%20Dublin%20Ireland">
-                                  1 Grafton Street Dublin Ireland
+                                <InfoLink target="_blank" href="https://t.me/+1yTJi6kEFrI2M2Ux">
+                                  Cosmic Horizon Official Telegram
                                 </InfoLink>
                               </InfoLinkContainer>
                             </Info>
