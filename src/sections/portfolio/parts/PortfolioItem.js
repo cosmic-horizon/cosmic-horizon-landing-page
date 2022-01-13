@@ -121,7 +121,7 @@ class PortfolioItem extends React.Component {
                     opacity: 1 !important;
                 }
             }
-            &.blue-shadow {
+            &.pink-shadow {
                 box-shadow: 0 28px 60px rgb(241, 0, 255);
                 transition: .5s;
                 &:hover {
@@ -135,7 +135,7 @@ class PortfolioItem extends React.Component {
             return (
                 <a href={this.props.link} target="_blank" rel="noopener noreferrer">
                     <Tilt options={{ scale: 1, max: 10 }}>
-                        <Item className="blue-shadow">
+                        <Item className="pink-shadow">
                             {this.showImage()}
                             <MobileContent>
                                 <Text>

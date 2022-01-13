@@ -24,7 +24,7 @@ class PortfolioOne extends React.Component {
             <Section id="portfolio">
                   <Col md={12}>
                     <Container>
-                      <AnimatedHeading text="In-Game NFTs" />
+                      <AnimatedHeading text="Cosmic NFTs" />
                     </Container>
                   <PortfolioContainer>
                       <Row>
@@ -47,7 +47,6 @@ class PortfolioOne extends React.Component {
                 image={value.content.frontmatter.image.childImageSharp.fluid.src} 
                 text={value.content.frontmatter.title} 
                 category={value.content.frontmatter.category}
-                link={value.content.frontmatter.link}
                 type="col"
               />
           </Col>
@@ -67,7 +66,6 @@ export default props => (
                       id
                       title
                       category
-                      link
                       image {
                         childImageSharp {
                           fluid(maxWidth: 1000) {
