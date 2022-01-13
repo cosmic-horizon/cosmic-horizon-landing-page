@@ -24,7 +24,7 @@ class PortfolioOne extends React.Component {
             <Section id="portfolio">
                   <Col md={12}>
                     <Container>
-                      <AnimatedHeading text="Recent Projects" />
+                      <AnimatedHeading text="In-Game NFTs" />
                     </Container>
                   <PortfolioContainer>
                       <Row>
