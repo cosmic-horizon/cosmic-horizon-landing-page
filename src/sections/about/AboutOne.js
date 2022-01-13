@@ -213,7 +213,7 @@ class AboutOne extends React.Component {
                         <LeftCol md={6}>
                             <RevealContent>
                                 <Heading>
-                                    Renowned <Color>Software</Color> Company From <Color>London</Color>
+                                    Decentralized <Color>Commmunity Driven</Color> Gaming <Color>Experienc</Color>
                                 </Heading>
                             </RevealContent>
                         </LeftCol>
