@@ -40,7 +40,7 @@ class ServicesOne extends React.Component {
             transition: .2s;
             &:hover {
                 background-color: #000;
-                box-shadow: 0 28px 60px rgb(4, 229, 229, .1);
+                box-shadow: 0 28px 60px rgb(241, 0, 255);
                 transform: translateY(-10px);
             }
         `
