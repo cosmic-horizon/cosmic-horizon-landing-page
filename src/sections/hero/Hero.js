@@ -81,10 +81,10 @@ class Hero extends React.Component {
             color: #fff;
             font-weight: 700;
             text-transform: uppercase;
-            background: -webkit-linear-gradient(left, #00ffff , #007a7a);
-            background: -o-linear-gradient(right, #00ffff, #007a7a);
-            background: -moz-linear-gradient(right, #00ffff, #007a7a);
-            background: linear-gradient(to right, #00ffff , #007a7a); 
+            background: -webkit-linear-gradient(left, #00ffff , #f100ff);
+            background: -o-linear-gradient(right, #00ffff, #f100ff);
+            background: -moz-linear-gradient(right, #00ffff, #f100ff);
+            background: linear-gradient(to right, #00ffff , #f100ff); 
            -webkit-background-clip: text;
            -webkit-text-fill-color: transparent;
             @media (max-width:767px) {
@@ -229,6 +229,7 @@ class Hero extends React.Component {
                                         }}
                                     />
                                 </Type>
+                                <br/>
                             </Content>
                         </Container>
                     </Overlay>
