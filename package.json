@@ -75,6 +75,6 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "start": "npm start"
+    "heroku-postbuild": "gatsby build"
   }
 }
