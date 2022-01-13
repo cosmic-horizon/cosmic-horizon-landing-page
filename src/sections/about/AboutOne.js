@@ -56,7 +56,7 @@ class AboutOne extends React.Component {
             }
         `
         const Color = styled.span`
-            color: #04e5e5;
+            color: #f100ff;
             font-size: 120px;
             line-height: 100px;
             font-family: Teko;
