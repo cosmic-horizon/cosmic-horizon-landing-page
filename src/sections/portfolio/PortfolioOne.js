@@ -10,7 +10,7 @@ class PortfolioOne extends React.Component {
     render() {
 
         const Section = styled.section`
-          background-color: #f100ff;
+          background-color: #050505;
           padding: 100px 0;
         `
         const PortfolioContainer = styled.div`
