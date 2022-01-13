@@ -124,9 +124,7 @@ class PortfolioItem extends React.Component {
             &.pink-shadow {
                 box-shadow: 0 28px 60px rgb(241, 0, 255);
                 transition: .5s;
-                &:hover {
-                    box-shadow: 0 28px 60px rgb(241, 0, 255);
-                }
+                
                 
             }
         `
