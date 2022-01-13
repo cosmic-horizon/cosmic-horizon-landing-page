@@ -89,7 +89,7 @@ class AboutOne extends React.Component {
                 color: #fff;
             }
             .symbol {
-                color: #04e5e5;
+                color: #f100ff;
                 position: absolute;
                 font-size: 39px;
                 top: -28px;
