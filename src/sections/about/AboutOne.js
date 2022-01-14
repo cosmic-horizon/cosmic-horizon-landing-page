@@ -229,21 +229,21 @@ class AboutOne extends React.Component {
                                 <Col md={6}>
                                     <AnimationContainer animation="fadeInRight" delay={1000}>
                                         <CounterComponent style={{marginBottom: "100px"}}>
-                                            <Counter value={100} duration={5} delay={1000} symbol="%" text="Open Source" />
+                                            <Counter value={100} duration={8} delay={1000} symbol="%" text="Open Source" />
                                         </CounterComponent>
                                     </AnimationContainer>
                                 </Col>
                                 <Col md={6}>
                                     <AnimationContainer animation="fadeInLeft" delay={1000}>
                                         <CounterComponent>
-                                            <Counter value={100} duration={5} delay={1000} symbol="%" text="Cosmos Ecosystem" />
+                                            <Counter value={100} duration={10} delay={1000} symbol="%" text="Cosmos Ecosystem" />
                                         </CounterComponent>
                                     </AnimationContainer>
                                 </Col>
                                 <Col md={6}>
                                     <AnimationContainer animation="fadeInRight" delay={1000}>
                                         <CounterComponent>
-                                            <Counter value={100} duration={5} delay={1000} symbol="%" text="Carbon Neutral" />
+                                            <Counter value={100} duration={12} delay={1000} symbol="%" text="Carbon Neutral" />
                                         </CounterComponent>
                                     </AnimationContainer>
                                 </Col>
