@@ -176,14 +176,14 @@ export default props => (
           }
         }
       }
-      mapIcon: file(relativePath: {eq: "icons/discord.png"}) {
+      mapIcon: file(relativePath: {eq: "icons/telegram.png"}) {
         childImageSharp {
           fluid(maxWidth: 500) {
             src
           }
         }
       }
-      phoneIcon: file(relativePath: {eq: "icons/telegram.png"}) {
+      phoneIcon: file(relativePath: {eq: "icons/discord.png"}) {
         childImageSharp {
           fluid(maxWidth: 500) {
             src
