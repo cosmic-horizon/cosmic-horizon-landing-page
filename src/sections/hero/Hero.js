@@ -246,7 +246,8 @@ class Hero extends React.Component {
                                                 <ServiceSeparator/>
                                                 <ServiceText>
                                                     Our application-specific blockchain is built using the Cosmos SDK, an open-source 
-                                                    framework for building multi-asset public Proof-of-Stake (PoS) blockchains.{"\n"}
+                                                    framework for building multi-asset public Proof-of-Stake (PoS) blockchains and one of 
+                                                    the most powerfull tools in the industry.
                                                 </ServiceText>
                                             </ServiceContent>
                                         </Service>
@@ -261,7 +262,7 @@ class Hero extends React.Component {
                                                 <ServiceSeparator/>
                                                 <ServiceText>
                                                     Cosmic Horizon is not just an experience, it's a community! Using the power of governance 
-                                                    you get to decide how to make it an amazing one.{"\n"}
+                                                    you get to decide how to make it an amazing one. You are at the center of this mission!
                                                 </ServiceText>
                                             </ServiceContent>
                                         </Service>
