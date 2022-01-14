@@ -109,7 +109,7 @@ class ServicesOne extends React.Component {
                                                     Testnets
                                                 </ServiceListElement>
                                                 <ServiceListElement>
-                                                    NFT Sales
+                                                    Whitepaper
                                                 </ServiceListElement>
                                                 <ServiceListElement>
                                                     Community Growth
@@ -130,13 +130,13 @@ class ServicesOne extends React.Component {
                                         <ServiceSeparator/>
                                         <ServiceList>
                                             <ServiceListElement>
-                                                Lorem ipsum dolor sit amet
+                                                Private Sale
                                             </ServiceListElement>
                                             <ServiceListElement>
-                                                In vitae ultricies lacus vitae
+                                                Partnerships
                                             </ServiceListElement>
                                             <ServiceListElement>
-                                                Pellentesque blandit libero
+                                                Marketing
                                             </ServiceListElement>
                                         </ServiceList>
                                     </ServiceElement>
@@ -154,13 +154,13 @@ class ServicesOne extends React.Component {
                                         <ServiceSeparator/>
                                         <ServiceList>
                                             <ServiceListElement>
-                                                Lorem ipsum dolor sit amet
+                                                NFT Sale
                                             </ServiceListElement>
                                             <ServiceListElement>
-                                                In vitae ultricies lacus vitae
+                                                DEX Launch
                                             </ServiceListElement>
                                             <ServiceListElement>
-                                                Pellentesque blandit libero
+                                                Team Expansion
                                             </ServiceListElement>
                                         </ServiceList>
                                     </ServiceElement>
