@@ -260,8 +260,8 @@ class Hero extends React.Component {
                                                 <ServiceHeading>Community Owned</ServiceHeading>
                                                 <ServiceSeparator/>
                                                 <ServiceText>
-                                                    Cosmic Horizon is not just an experience, it's a community! Using the power of governance you get to decide how to 
-                                                    make it an amazing one.
+                                                    Cosmic Horizon is not just an experience, it's a community! Using the power of governance 
+                                                    you get to decide how to make it an amazing one.
                                                 </ServiceText>
                                             </ServiceContent>
                                         </Service>
@@ -275,8 +275,8 @@ class Hero extends React.Component {
                                                 <ServiceHeading>DAO</ServiceHeading>
                                                 <ServiceSeparator/>
                                                 <ServiceText>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae ultricies lacus, vitae varius velit. 
-                                                    Pellentesque blandit libero eu turpis condimentum bibendum.
+                                                    One of the most exciting opportunities a blockchain community presents is the formation of a Decentralized
+                                                    autonomous orginization (DAO).  Cosmic Horizon enables making a real change in the world!
                                                 </ServiceText>
                                             </ServiceContent>
                                         </Service>
