@@ -40,7 +40,9 @@ class DesktopContent extends React.Component {
             transition: .5s;
             text-align: center;
             display: flex;
- 
+            &.active {
+                animation: ${Animation} 1s forwards;
+            }
         `
 
         return (
