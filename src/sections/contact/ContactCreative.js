@@ -3,7 +3,6 @@ import { Row, Col, Container } from 'react-bootstrap'
 import { graphql, StaticQuery } from 'gatsby'
 import styled from 'styled-components'
 import AnimationContainer from 'components/animation-container'
-import ContactCreativeForm from './parts/ContactCreativeForm.js'
 
 class ContactCreative extends React.Component {
 
@@ -53,7 +52,7 @@ class ContactCreative extends React.Component {
             text-align: center;
             position: relative;
             bottom: 75px;
-            background-color: #04e5e5;
+            background-color: #f100ff;
             border-radius: 150px;
             transition: .5s;
         `
@@ -89,7 +88,7 @@ class ContactCreative extends React.Component {
         `
 
         const InfoLink = styled.a`
-            color: #04e5e5;
+            color: #f100ff;
             transition: .5s;
             &:hover {
               color: #fff;
