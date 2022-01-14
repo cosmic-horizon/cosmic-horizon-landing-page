@@ -306,14 +306,14 @@ export default props => (
             }
           }
         }
-        mobileIcon: file(relativePath: {eq: "icons/mobile.png"}) {
+        mobileIcon: file(relativePath: {eq: "icons/community.png"}) {
           childImageSharp {
             fluid(maxWidth: 500) {
               src
             }
           }
         }
-        seoIcon: file(relativePath: {eq: "icons/seo.png"}) {
+        seoIcon: file(relativePath: {eq: "icons/DAO.png"}) {
           childImageSharp {
             fluid(maxWidth: 500) {
               src
