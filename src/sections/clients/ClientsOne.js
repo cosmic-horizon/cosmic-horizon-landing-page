@@ -73,7 +73,7 @@ class ClientsOne extends React.Component {
                     <Row>
                       <LeftCol md={6}>
                         <Heading>
-                          <Color>Clients</Color> we worked with
+                          <Color>Cosmic</Color> Partners
                         </Heading>
                       </LeftCol>
                       <Col md={6}>
