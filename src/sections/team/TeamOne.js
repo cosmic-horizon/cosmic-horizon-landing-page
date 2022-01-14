@@ -38,7 +38,7 @@ class TeamOne extends React.Component {
             }
             .slick-dots {
               li button:before,.slick-dots li.slick-active button:before {
-                color: #04e5e5;
+                color: #f100ff;
               }
             }
         `
@@ -132,7 +132,7 @@ export default props => (
                 }
               }
             }
-            items: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(team)/"}}, sort: {fields: [frontmatter___id], order: ASC}, limit: 8) {
+            items: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(team)/"}}, sort: {fields: [frontmatter___id], order: ASC}, limit: 3) {
               edges {
                 content: node {
                   frontmatter {

@@ -44,7 +44,7 @@ class DesktopContent extends React.Component {
             text-align: center;
             &.active {
                 animation: ${Animation} 1s forwards;
-                background-image: linear-gradient(to top, rgba(4,229,229,1), rgba(255, 255, 255, 0));
+                background-image: linear-gradient(to top, rgba(241,0,255), rgba(255, 255, 255, 0));
             }
         `
 
