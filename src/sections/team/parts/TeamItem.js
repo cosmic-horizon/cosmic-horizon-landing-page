@@ -111,10 +111,10 @@ class TeamItem extends React.Component {
                 }
             }
             &.blue-shadow {
-                box-shadow: 0 0px 15px rgb(4,229,229,.2);
+                box-shadow: 0 0px 15px rgb(241,0,255);
                 transition: .5s;
                 &:hover {
-                    box-shadow: 0 0px 15px rgb(4,229,229,.5);
+                    box-shadow: 0 0px 15px rgb(241,0,255);
                 }
                 
             }
