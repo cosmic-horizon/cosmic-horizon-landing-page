@@ -102,7 +102,7 @@ class ClientsOne extends React.Component {
             transition: .1s;
             &:hover {
               transform: scale(1.1);
-              background-color: #04e5e5;
+              background-color: #f100ff;
               z-index: 5;
               border-radius: 10px;
             }
