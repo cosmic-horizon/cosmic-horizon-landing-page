@@ -222,28 +222,28 @@ class AboutOne extends React.Component {
                                 <Col md={6}>
                                     <AnimationContainer animation="fadeInLeft" delay={1000}>
                                         <CounterComponent style={{marginBottom: "100px"}}>
-                                            <Counter value={5} duration={5} delay={1000} symbol="+" text="5 Years of Experience" />
+                                            <Counter value={100} duration={5} delay={1000} symbol="%" text="Community Driven" />
                                         </CounterComponent>
                                     </AnimationContainer>
                                 </Col>
                                 <Col md={6}>
                                     <AnimationContainer animation="fadeInRight" delay={1000}>
                                         <CounterComponent style={{marginBottom: "100px"}}>
-                                            <Counter value={100} duration={5} delay={1000} symbol="+" text="Clients Worked With" />
+                                            <Counter value={100} duration={5} delay={1000} symbol="%" text="Open Source" />
                                         </CounterComponent>
                                     </AnimationContainer>
                                 </Col>
                                 <Col md={6}>
                                     <AnimationContainer animation="fadeInLeft" delay={1000}>
                                         <CounterComponent>
-                                            <Counter value={15} duration={5} delay={1000} text="Team Members" />
+                                            <Counter value={100} duration={5} delay={1000} symbol="%" text="Cosmos Ecosystem" />
                                         </CounterComponent>
                                     </AnimationContainer>
                                 </Col>
                                 <Col md={6}>
                                     <AnimationContainer animation="fadeInRight" delay={1000}>
                                         <CounterComponent>
-                                            <Counter value={10} duration={5} delay={1000} symbol="+" text="Honourable Awards" />
+                                            <Counter value={100} duration={5} delay={1000} symbol="%" text="Carbon Neutral" />
                                         </CounterComponent>
                                     </AnimationContainer>
                                 </Col>
