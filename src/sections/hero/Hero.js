@@ -56,7 +56,7 @@ class Hero extends React.Component {
 
         const Heading1 = styled.h1`
             font-size: 80px;
-            font-family: Teko;
+            font-family: Spartan;
             line-height: 40px;
             color: #fff;
             font-weight: 400;
@@ -116,7 +116,7 @@ class Hero extends React.Component {
                 line-height: 20px;
             }
             span {
-                font-family: Teko;
+                font-family: Spartan;
             }
         `
         const Content = styled.div`
@@ -183,7 +183,7 @@ class Hero extends React.Component {
         const ServiceHeading = styled.h4`
             font-size: 30px;
             font-weight: 400;
-            font-family: Teko;
+            font-family: Spartan;
         `
         const ServiceSeparator = styled.div`
             height: 5px;
