@@ -210,7 +210,7 @@ class AboutOne extends React.Component {
                 }}/>
                 <AboutContainer>
                     <Row>
-                        <LeftCol md={5}>
+                        <LeftCol md={6}>
                             <RevealContent>
                                 <Heading>
                                     Decentralized <Color>Commmunity </Color> Gaming <Color>Experience</Color>
