@@ -1,8 +1,8 @@
 ---
 id: 2
 image: './image.jpg'
-name: "John Doe"
-profession: "React Developer"
+name: "William Moglia"
+profession: "CFO"
 facebook: "https://www.facebook.com/"
 twitter: "https://www.twitter.com/"
 linkedin: "https://www.linkedin.com/"

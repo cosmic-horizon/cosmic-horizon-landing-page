@@ -1,8 +1,8 @@
 ---
 id: 1
 image: './image.jpg'
-name: "Robert Doe"
-profession: "Angular Developer"
+name: "Daniel Pittman"
+profession: "CEO"
 facebook: "https://www.facebook.com/"
 twitter: "https://www.twitter.com/"
 linkedin: "https://www.linkedin.com/"
