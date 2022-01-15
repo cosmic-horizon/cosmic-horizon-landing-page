@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Cosmic Horizon - Brought to you by Qwoyn',
+    siteUrl: `https://www.cosmic-horizon.com`,
+    image: "/logo.png",
     description:
       'Cosmic Horizon is a space trading game built with cosmos sdk and its own application-specific blockchain.',
   },
