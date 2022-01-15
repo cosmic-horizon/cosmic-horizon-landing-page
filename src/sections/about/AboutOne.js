@@ -218,36 +218,7 @@ class AboutOne extends React.Component {
                             </RevealContent>
                         </LeftCol>
                         <Col md={6}>
-                            <Row>
-                                <Col md={6}>
-                                    <AnimationContainer animation="fadeInLeft" delay={1000}>
-                                        <CounterComponent style={{marginBottom: "100px"}}>
-                                            <Counter value={100} duration={5} delay={1000} symbol="%" text="Community Driven" />
-                                        </CounterComponent>
-                                    </AnimationContainer>
-                                </Col>
-                                <Col md={6}>
-                                    <AnimationContainer animation="fadeInRight" delay={1000}>
-                                        <CounterComponent style={{marginBottom: "100px"}}>
-                                            <Counter value={100} duration={8} delay={1000} symbol="%" text="Open Source" />
-                                        </CounterComponent>
-                                    </AnimationContainer>
-                                </Col>
-                                <Col md={6}>
-                                    <AnimationContainer animation="fadeInLeft" delay={1000}>
-                                        <CounterComponent>
-                                            <Counter value={100} duration={10} delay={1000} symbol="%" text="Cosmos Ecosystem" />
-                                        </CounterComponent>
-                                    </AnimationContainer>
-                                </Col>
-                                <Col md={6}>
-                                    <AnimationContainer animation="fadeInRight" delay={1000}>
-                                        <CounterComponent>
-                                            <Counter value={100} duration={12} delay={1000} symbol="%" text="Carbon Neutral" />
-                                        </CounterComponent>
-                                    </AnimationContainer>
-                                </Col>
-                            </Row>
+                            
                         </Col>
                     </Row>
                 </AboutContainer>
