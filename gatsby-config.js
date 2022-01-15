@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Abstract - Creative Agency Personal Portfolio Template',
+    title: 'Cosmic Horizon - Brought to you by Qwoyn',
     description:
-      'Abstract is a beautiful template built using React and Gatsby for creative agency or personal projects',
+      'Cosmic Horizon is a space trading game built with cosmos sdk and its own application-specific blockchain.',
   },
   pathPrefix: '/',
   plugins: [
