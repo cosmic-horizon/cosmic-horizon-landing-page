@@ -226,7 +226,7 @@ class ServicesOne extends React.Component {
                                             <ServiceSeparator/>
                                             <ServiceList>
                                                 <ServiceListElement>
-                                                    Lorem ipsum dolor sit amet
+                                                    Enable Groups Module
                                                 </ServiceListElement>
                                                 <ServiceListElement>
                                                     In vitae ultricies lacus vitae

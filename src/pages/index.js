@@ -25,13 +25,13 @@ class Index extends React.Component {
         </Helmet>
         <Layout
           isHome={true}
-          sections={['home', 'about', 'roadmap', 'nfts', 'partners', 'contact']}
+          sections={['home', 'about', 'roadmap', 'contact']}
         >
           <Hero />
           <AboutOne />
           <ServicesOne />
-          <PortfolioOne />
-          <ClientsOne />
+          {/*<PortfolioOne />
+          <ClientsOne />*/}
           <ContactCreative />
         </Layout>
       </div>
