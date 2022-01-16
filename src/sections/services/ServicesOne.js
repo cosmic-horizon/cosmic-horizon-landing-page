@@ -130,7 +130,7 @@ class ServicesOne extends React.Component {
                                         <ServiceSeparator/>
                                         <ServiceList>
                                             <ServiceListElement>
-                                                Private Sale
+                                                NFT Sale
                                             </ServiceListElement>
                                             <ServiceListElement>
                                                 Partnerships
@@ -154,10 +154,10 @@ class ServicesOne extends React.Component {
                                         <ServiceSeparator/>
                                         <ServiceList>
                                             <ServiceListElement>
-                                                NFT Sale
+                                                Private Sale
                                             </ServiceListElement>
                                             <ServiceListElement>
-                                                DEX Launch
+                                                Mainnet Launch
                                             </ServiceListElement>
                                             <ServiceListElement>
                                                 Team Expansion
@@ -178,13 +178,13 @@ class ServicesOne extends React.Component {
                                         <ServiceSeparator/>
                                         <ServiceList>
                                             <ServiceListElement>
-                                                Lorem ipsum dolor sit amet
+                                                Mainnet Launch
                                             </ServiceListElement>
                                             <ServiceListElement>
-                                                In vitae ultricies lacus vitae
+                                                IBC
                                             </ServiceListElement>
                                             <ServiceListElement>
-                                                Pellentesque blandit libero
+                                                NFTs Distributed
                                             </ServiceListElement>
                                         </ServiceList>
                                     </ServiceElement>
@@ -202,13 +202,13 @@ class ServicesOne extends React.Component {
                                         <ServiceSeparator/>
                                         <ServiceList>
                                             <ServiceListElement>
-                                                Lorem ipsum dolor sit amet
+                                                Foundation Launch
                                             </ServiceListElement>
                                             <ServiceListElement>
-                                                In vitae ultricies lacus vitae
+                                                DEX Listing
                                             </ServiceListElement>
                                             <ServiceListElement>
-                                                Pellentesque blandit libero
+                                                Cosmic Alpha Launch
                                             </ServiceListElement>
                                         </ServiceList>
                                     </ServiceElement>
