@@ -157,9 +157,6 @@ class ServicesOne extends React.Component {
                                                 Private Sale
                                             </ServiceListElement>
                                             <ServiceListElement>
-                                                Mainnet Launch
-                                            </ServiceListElement>
-                                            <ServiceListElement>
                                                 Team Expansion
                                             </ServiceListElement>
                                         </ServiceList>
@@ -205,10 +202,7 @@ class ServicesOne extends React.Component {
                                                 Foundation Launch
                                             </ServiceListElement>
                                             <ServiceListElement>
-                                                DEX Listing
-                                            </ServiceListElement>
-                                            <ServiceListElement>
-                                                Cosmic Alpha Launch
+                                                Cosmic Horizon Live Test
                                             </ServiceListElement>
                                         </ServiceList>
                                     </ServiceElement>
@@ -226,13 +220,13 @@ class ServicesOne extends React.Component {
                                             <ServiceSeparator/>
                                             <ServiceList>
                                                 <ServiceListElement>
-                                                    Enable Groups Module
+                                                    Cosmic Horizon Alpha Launch
                                                 </ServiceListElement>
                                                 <ServiceListElement>
-                                                    In vitae ultricies lacus vitae
+                                                    Cosmic Airdrop
                                                 </ServiceListElement>
                                                 <ServiceListElement>
-                                                    Pellentesque blandit libero
+                                                    Dex Listing
                                                 </ServiceListElement>
                                             </ServiceList>
                                         </ServiceElement>
