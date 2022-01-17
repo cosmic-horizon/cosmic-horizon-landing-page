@@ -258,42 +258,42 @@ export default props => (
             }
           }
         }
-        web: file(relativePath: {eq: "icons/1.png"}) {
+        web: file(relativePath: {eq: "icons/2.png"}) {
           childImageSharp {
             fluid(maxWidth: 500) {
               src
             }
           }
         }
-        mobile: file(relativePath: {eq: "icons/2.png"}) {
+        mobile: file(relativePath: {eq: "icons/1.png"}) {
           childImageSharp {
             fluid(maxWidth: 500) {
               src
             }
           }
         }
-        seo: file(relativePath: {eq: "icons/3.png"}) {
+        seo: file(relativePath: {eq: "icons/4.png"}) {
           childImageSharp {
             fluid(maxWidth: 500) {
               src
             }
           }
         }
-        email: file(relativePath: {eq: "icons/4.png"}) {
+        email: file(relativePath: {eq: "icons/3.png"}) {
           childImageSharp {
             fluid(maxWidth: 500) {
               src
             }
           }
         }
-        ui: file(relativePath: {eq: "icons/5.png"}) {
+        ui: file(relativePath: {eq: "icons/6.png"}) {
           childImageSharp {
             fluid(maxWidth: 500) {
               src
             }
           }
         }
-        network: file(relativePath: {eq: "icons/6.png"}) {
+        network: file(relativePath: {eq: "icons/5.png"}) {
           childImageSharp {
             fluid(maxWidth: 500) {
               src
