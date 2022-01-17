@@ -47,7 +47,7 @@ class ServicesOne extends React.Component {
          const ServiceHeading = styled.h4`
             font-size: 30px;
             font-weight: 500;
-            font-family: Teko;
+            font-family: Spartan;
             color: #fff;
         `
         const ServiceSeparator = styled.div`
