@@ -169,7 +169,7 @@ export default props => (
   <StaticQuery
     query={graphql`
     query {
-      emailIcon: file(relativePath: {eq: "icons/email2.png"}) {
+      emailIcon: file(relativePath: {eq: "icons/email.png"}) {
         childImageSharp {
           fluid(maxWidth: 500) {
             src
