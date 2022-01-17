@@ -57,7 +57,7 @@ module.exports = {
       options: {
         fonts: [
           `Teko`,
-          `Poppins\:300,400,500,600,700`
+          `Spartan\:300,400,500,600,700`
         ],
         display: 'swap'
       }
