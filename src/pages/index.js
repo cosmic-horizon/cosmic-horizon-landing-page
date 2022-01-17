@@ -22,10 +22,11 @@ class Index extends React.Component {
         <Helmet>
           <title>{site.meta.title}</title>
           <meta name="description" content={site.meta.description} />
+          <meta name="image" content={site.meta.image} />
         </Helmet>
         <Layout
           isHome={true}
-          sections={['home', 'about', 'roadmap', 'contact']}
+          sections={['home']}
         >
           <Hero />
           <AboutOne />
