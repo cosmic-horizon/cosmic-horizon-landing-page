@@ -47,6 +47,7 @@ export const creativeOneQuery = graphql`
       meta: siteMetadata {
         title
         description
+        image
       }
     }
   }
