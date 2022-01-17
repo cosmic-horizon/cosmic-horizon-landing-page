@@ -52,7 +52,7 @@ class ContactCreative extends React.Component {
             text-align: center;
             position: relative;
             bottom: 75px;
-            background-color: #f100ff;
+            background-color: #000000;
             border-radius: 150px;
             transition: .5s;
         `
