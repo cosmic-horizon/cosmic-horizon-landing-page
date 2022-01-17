@@ -13,7 +13,7 @@ class ContactCreative extends React.Component {
             position: relative;
             overflow: hidden;
             background-color: #000;
-            padding: 100px 0;
+            padding: 50px 0;
         `
 
         const FormRow = styled(Row)`
