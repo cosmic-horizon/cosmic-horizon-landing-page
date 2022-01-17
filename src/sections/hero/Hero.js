@@ -222,7 +222,7 @@ class Hero extends React.Component {
                                         options={{
                                         strings: [
                                             'Cosmos SDK Powered',
-                                            'Space Trading Game'
+                                            'Elite Space Trading Game'
                                         ],
                                         autoStart: true,
                                         loop: true,
