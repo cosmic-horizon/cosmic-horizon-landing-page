@@ -28,7 +28,7 @@ class ServicesOne extends React.Component {
 
         const ServiceContainer = styled.div`
             background-color: rgba(0,0,0,.9);
-            padding: 100px 0;
+            padding: 50px 0;
         `
 
 
