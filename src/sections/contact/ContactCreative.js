@@ -111,8 +111,8 @@ class ContactCreative extends React.Component {
                                 Email
                               </InfoTitle>
                               <InfoLinkContainer>
-                                <InfoLink target="_blank" href="mailto:info@cosmic-horizon.com">
-                                  info@cosmic-horizon.com
+                                <InfoLink target="_blank" href="mailto:admin@cosmic-horizon.com">
+                                  admin@cosmic-horizon.com
                                 </InfoLink>
                               </InfoLinkContainer>
                             </Info>
