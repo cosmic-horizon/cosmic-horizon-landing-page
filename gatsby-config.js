@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Cosmic Horizon - Brought to you by Qwoyn',
+    title: 'Cosmic Horizon - Brought to you by Qwoyn Studios',
     siteUrl: `https://www.cosmic-horizon.com`,
     image: "/img/Cosmic-Horizona.jpg",
     description:
