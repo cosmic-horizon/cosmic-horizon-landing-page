@@ -31,8 +31,8 @@ class Index extends React.Component {
           <Hero />
           <AboutOne />
           <ServicesOne />
-          {/*<PortfolioOne />
-          <ClientsOne />*/}
+          {/*<PortfolioOne />*/}
+          <ClientsOne />
           <ContactCreative />
         </Layout>
       </div>
