@@ -111,7 +111,7 @@ class ClientsOne extends React.Component {
             }
         `
           return (
-              <ClientCol md={3} key={index} style={{borderRight: (index+1)%4 === 0 ? "none" : "1px solid", borderBottom: index < 8 ? "1px solid" : "none"}}>
+              <ClientCol md={12} key={index} style={{borderRight: (index+1)%4 === 0 ? "none" : "1px solid", borderBottom: index < 8 ? "1px solid" : "none"}}>
                   <AnimationContainer animation="fadeIn slower" delay={index*200}>
                     <Client
                       src={value.node.childImageSharp.fluid.src}
