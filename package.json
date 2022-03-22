@@ -2,6 +2,10 @@
   "name": "abstract-template",
   "description": "Abstract - React Creative Agency Personal Portfolio Template",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.18.3",
+    "npm": "6.14.15"
+  },
   "author": "Syed Muaz Ali",
   "private": true,
   "dependencies": {
