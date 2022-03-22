@@ -1,7 +1,6 @@
 ---
 id: 4
-image: './image.jpg'
-title: "Angular + Ionic "
-category: "Angular.js"
-link: "https://github.com"
+image: './merchants_ship.gif'
+title: "Merchants Ship"
+category: "Ship"
 ---

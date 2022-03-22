@@ -1,6 +1,6 @@
 ---
 id: 1
-image: './image.jpg'
-title: "Xyellia"
+image: './merchants.gif'
+title: "Merchant"
 category: "Avatar"
 ---
