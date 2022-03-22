@@ -41,7 +41,7 @@ class PortfolioOne extends React.Component {
       
       return items.map((value, index) => {
         return (
-          <Col md={8} key={index}>
+          <Col md={4} key={index}>
               <PortfolioItem 
                 index={index} 
                 image={value.content.frontmatter.image.childImageSharp.fluid.src} 
