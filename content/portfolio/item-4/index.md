@@ -1,6 +1,6 @@
 ---
 id: 4
-image: './merchants_ship.gif'
+image: 'https://imgur.com/7SJMYyO'
 title: "Merchants Ship"
 category: "Ship"
 ---

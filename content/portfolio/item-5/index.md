@@ -1,6 +1,6 @@
 ---
 id: 5
-image: './scientists_ship.gif'
+image: 'https://imgur.com/7SJMYyO'
 title: "Science Vessel"
 category: "Ship"
 ---
