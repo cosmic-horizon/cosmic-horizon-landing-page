@@ -1,6 +1,6 @@
 ---
 id: 3
-image: 'Scientists.png'
+image: 'warrior.png'
 title: "Warrior"
 category: "Avatar"
 ---

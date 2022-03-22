@@ -1,6 +1,6 @@
 ---
 id: 6
-image: 'warrior.png'
+image: 'space_battleship.png'
 title: "Battleship"
 category: "Ship"
 ---

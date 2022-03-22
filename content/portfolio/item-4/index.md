@@ -1,6 +1,6 @@
 ---
 id: 4
 image: 'scientists_ship.png'
-title: "Merchants Ship"
+title: "Science Vessel"
 category: "Ship"
 ---

@@ -1,6 +1,6 @@
 ---
 id: 5
-image: 'space_battleship.png'
-title: "Science Vessel"
+image: 'merchants_ship.png'
+title: "Merchant Cruiser"
 category: "Ship"
 ---
