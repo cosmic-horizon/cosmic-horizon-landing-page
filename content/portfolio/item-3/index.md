@@ -1,6 +1,6 @@
 ---
 id: 3
-image: 'https://imgur.com/7SJMYyO'
+image: 'Scientists.png'
 title: "Warrior"
 category: "Avatar"
 ---

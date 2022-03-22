@@ -1,6 +1,6 @@
 ---
 id: 1
-image: 'https://imgur.com/7SJMYyO'
+image: 'merchants.png'
 title: "Merchant"
 category: "Avatar"
 ---

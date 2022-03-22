@@ -1,6 +1,6 @@
 ---
 id: 2
-image: 'https://imgur.com/7SJMYyO'
+image: 'merchants_ship.png'
 title: "Scientist"
 category: "Avatar"
 link: "https://github.com"

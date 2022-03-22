@@ -1,6 +1,6 @@
 ---
 id: 6
-image: 'https://imgur.com/7SJMYyO'
+image: 'warrior.png'
 title: "Battleship"
 category: "Ship"
 ---

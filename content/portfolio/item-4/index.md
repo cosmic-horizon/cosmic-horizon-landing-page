@@ -1,6 +1,6 @@
 ---
 id: 4
-image: 'https://imgur.com/7SJMYyO'
+image: 'scientists_ship.png'
 title: "Merchants Ship"
 category: "Ship"
 ---
