@@ -132,7 +132,7 @@ export default props => (
                 }
               }
             }
-            items: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(team)/"}}, sort: {fields: [frontmatter___id], order: ASC}, limit: 3) {
+            items: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/(team)/"}}, sort: {fields: [frontmatter___id], order: ASC}, limit: 2) {
               edges {
                 content: node {
                   frontmatter {
