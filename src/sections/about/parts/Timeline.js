@@ -66,7 +66,7 @@ class Timeline extends React.Component {
         const Company = styled.h5`
             font-size: 15px;
             font-weight: 900;
-            color: #04e5e5;
+            color: #f100ff;
             margin-bottom: 5px;
         `
         const Text = styled.p`
