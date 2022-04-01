@@ -57,7 +57,7 @@ class AboutPersonal extends React.Component {
         `
         
         const AboutContainer = styled(Container)`
-            padding: 100px 0;
+            padding: 50px 0;
             @media (max-width: 500px) {
                 padding: 50px 0;
             }
@@ -218,9 +218,10 @@ class AboutPersonal extends React.Component {
                                 <Separator />
                                 <Text>
                                     Qwoyn Studios is inviting the community to bootstrap the Cosmic Horizon Network via a KYC'd private 
-                                    token sale. This is your chance to play and important role in the community and build a decentralized gaming experience. 
+                                    token sale. This is your chance to play an important role in the community and build a decentralized gaming experience. 
                                     We have two investment options, both of which come at a discounted token price and varying lockup terms!
                                 </Text>
+                                <br/>
                                 <br/>
                                 <Info>
                                     <InfoLinkContainer>
