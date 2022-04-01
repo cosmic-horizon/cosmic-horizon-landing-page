@@ -124,7 +124,7 @@ class AboutPersonal extends React.Component {
         const Separator = styled.div`
             height: 5px;
             width: 50px;
-            background-color: #04e5e5;
+            background-color: #f100ff;
             margin-bottom: 20px;
         `
 
@@ -139,6 +139,50 @@ class AboutPersonal extends React.Component {
             font-size: 12px;
             font-weight: 300;
             color: #c5c5c5;
+        `
+
+        const InfoPart = styled.div`
+            min-height: 250px;
+            background-color: #111;
+            border: 2px solid #444;
+            &:hover ${IconContainer} {
+              background-color: #f100ff;
+            }
+        `
+
+        const InfoTitle = styled.h4`
+            font-size: 35px;
+            color: #fff;
+            font-family: Teko;
+            text-align: center;
+        `
+
+        const Info = styled.div`
+            position: relative;
+            bottom: 30px;
+        `
+
+        const InfoLinkContainer = styled.div`
+            text-align: center;
+        `
+
+        const InfoLink = styled.a`
+            color: #f100ff;
+            transition: .5s;
+            &:hover {
+              color: #fff;
+              text-decoration: none;
+            }
+        `
+
+        const IconRow = styled(Row)`
+            margin-top: 150px;
+        `
+
+        const IconCol = styled(Col)`
+            @media (max-width: 500px) {
+              margin-bottom: 140px;
+            }
         `
 
         return(
@@ -156,14 +200,17 @@ class AboutPersonal extends React.Component {
                         </LeftCol>
                         <Col md={6}>
                             <AnimationContainer animation="fadeIn">
-                                <Heading>About Me</Heading>
+                                <Heading>Private Token Sale</Heading>
                                 <Separator />
                                 <Text>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
-                                    type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                                    It was popularised in the 1960s with the release of 
-                                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    Qwoyn Studios is inviting the community to bootstrap the Cosmic Horizon Network via a KYC'd private 
+                                    token sale. This is your chance to play and important role in the community and build a decentralized gaming experience. 
+                                    We have two investment options, both of which come at a discounted token price and varying lockup terms!
+                                    1 year lockups - $0.46 | 3 year lockups - $0.63 (3 year lockups = 1 year cliff and 2 year linear lockup)
+                                </Text>
+                                <br/>
+                                <Text>
+                                    Click the KYC link below to begin!
                                 </Text>
                                 <TabsPart />
                             </AnimationContainer>
@@ -176,33 +223,55 @@ class AboutPersonal extends React.Component {
                             <Col md={3}>
                                 <AnimationContainer animation="fadeIn" delay={1000}>
                                     <CounterComponent>
-                                        <Counter value={5} duration={5} delay={1000} symbol="+" text="5 Years of Experience" animation={true} />
+                                        <Counter value={10000000} duration={5} delay={1000} text="10 million tokens up for Available" animation={true} />
                                     </CounterComponent>
                                 </AnimationContainer>
                             </Col>
                             <Col md={3}>
                                 <AnimationContainer animation="fadeIn" delay={1000}>
                                     <CounterComponent>
-                                        <Counter value={100} duration={5} delay={1000} symbol="+" text="Clients Worked With" animation={true} />
+                                        <Counter value={2} duration={5} delay={1000} text="Investment Options" animation={true} />
                                     </CounterComponent>
                                 </AnimationContainer>
                             </Col>
                             <Col md={3}>
                                 <AnimationContainer animation="fadeIn" delay={1000}>
                                     <CounterComponent>
-                                        <Counter value={5} duration={5} delay={1000} text="Certifications" animation={true} />
+                                        <Counter value={4} duration={5} delay={1000} text="Weeks Remaining" animation={true} />
                                     </CounterComponent>
                                 </AnimationContainer>
                             </Col>
                             <Col md={3}>
                                 <AnimationContainer animation="fadeIn" delay={1000}>
                                     <CounterComponent>
-                                        <Counter value={10} duration={5} delay={1000} symbol="+" text="Honourable Awards" animation={true} />
+                                        <Counter value={1000} duration={5} delay={1000} text="Minimum Dollar Investment" animation={true} />
                                     </CounterComponent>
                                 </AnimationContainer>
                             </Col>
                         </Row>
                     </Container>
+                </CounterRow>
+                <CounterRow>
+                <Container>
+                  <IconRow>
+                      <IconCol md={12}>
+                        <AnimationContainer animation="fadeIn" delay={500}>
+                          <InfoPart>
+                            <Info>
+                              <InfoTitle>
+                                KYC
+                              </InfoTitle>
+                              <InfoLinkContainer>
+                                <InfoLink target="_blank" href="https://cosmic-horizon.synaps.me">
+                                  Cosmic Horizon KYC Portal
+                                </InfoLink>
+                              </InfoLinkContainer>
+                            </Info>
+                          </InfoPart>
+                        </AnimationContainer>
+                      </IconCol>
+                  </IconRow>
+                </Container>
                 </CounterRow>
             </Section>
         )
