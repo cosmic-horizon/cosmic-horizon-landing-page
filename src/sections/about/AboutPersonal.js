@@ -33,6 +33,19 @@ class AboutPersonal extends React.Component {
             }
         `
 
+        const IconContainer = styled.div`
+            width: 150px;
+            height: 150px;
+            margin: auto;
+            padding: 35px;
+            text-align: center;
+            position: relative;
+            bottom: 75px;
+            background-color: #000000;
+            border-radius: 150px;
+            transition: .5s;
+        `
+
         const CounterRow = styled(Row)`
             margin-top: 100px;
             background-color: #000;
@@ -148,19 +161,6 @@ class AboutPersonal extends React.Component {
             &:hover ${IconContainer} {
               background-color: #f100ff;
             }
-        `
-
-        const IconContainer = styled.div`
-            width: 150px;
-            height: 150px;
-            margin: auto;
-            padding: 35px;
-            text-align: center;
-            position: relative;
-            bottom: 75px;
-            background-color: #000000;
-            border-radius: 150px;
-            transition: .5s;
         `
 
         const InfoTitle = styled.h4`
