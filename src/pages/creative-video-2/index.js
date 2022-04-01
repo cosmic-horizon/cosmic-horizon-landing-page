@@ -31,7 +31,6 @@ class Index extends React.Component {
           <ServicesTwo />
           <PortfolioTwo />
           <TestimonialsTwo />
-          <TeamTwo />
           <ClientsTwo />
           <ContactCreative />
         </Layout>
