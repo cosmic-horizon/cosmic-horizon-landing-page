@@ -181,7 +181,7 @@ class AboutPersonal extends React.Component {
 
         const InfoLink = styled.a`
             color: #f100ff;
-            font-size: 15px;
+            font-size: 20px;
             transition: .5s;
             &:hover {
               color: #fff;
