@@ -225,67 +225,21 @@ class AboutPersonal extends React.Component {
                                 <Text>
                                     Click the KYC link below to begin!
                                 </Text>
-                                <TabsPart />
+                                    <Info>
+                                        <InfoTitle>
+                                            KYC
+                                        </InfoTitle>
+                                        <InfoLinkContainer>
+                                            <InfoLink target="_blank" href="https://cosmic-horizon.synaps.me">
+                                                Cosmic Horizon KYC Portal
+                                            </InfoLink>
+                                        </InfoLinkContainer>
+                                    </Info>
+                                
                             </AnimationContainer>
                         </Col>
                     </Row>
                 </AboutContainer>
-                <CounterRow>
-                    <Container>
-                        <Row>
-                            <Col md={3}>
-                                <AnimationContainer animation="fadeIn" delay={1000}>
-                                    <CounterComponent>
-                                        <Counter value={10000000} duration={5} delay={1000} text="10 million tokens up for Available" animation={true} />
-                                    </CounterComponent>
-                                </AnimationContainer>
-                            </Col>
-                            <Col md={3}>
-                                <AnimationContainer animation="fadeIn" delay={1000}>
-                                    <CounterComponent>
-                                        <Counter value={2} duration={5} delay={1000} text="Investment Options" animation={true} />
-                                    </CounterComponent>
-                                </AnimationContainer>
-                            </Col>
-                            <Col md={3}>
-                                <AnimationContainer animation="fadeIn" delay={1000}>
-                                    <CounterComponent>
-                                        <Counter value={4} duration={5} delay={1000} text="Weeks Remaining" animation={true} />
-                                    </CounterComponent>
-                                </AnimationContainer>
-                            </Col>
-                            <Col md={3}>
-                                <AnimationContainer animation="fadeIn" delay={1000}>
-                                    <CounterComponent>
-                                        <Counter value={1000} duration={5} delay={1000} text="Minimum Dollar Investment" animation={true} />
-                                    </CounterComponent>
-                                </AnimationContainer>
-                            </Col>
-                        </Row>
-                    </Container>
-                </CounterRow>
-                <CounterRow>
-                <Container>
-                  <IconRow>
-                      <IconCol md={12}>
-                        <AnimationContainer animation="fadeIn" delay={500}>
-                          <InfoPart>
-                            <Info>
-                              <InfoTitle>
-                                KYC
-                              </InfoTitle>
-                              <InfoLinkContainer>
-                                <InfoLink target="_blank" href="https://cosmic-horizon.synaps.me">
-                                  Cosmic Horizon KYC Portal
-                                </InfoLink>
-                              </InfoLinkContainer>
-                            </Info>
-                          </InfoPart>
-                        </AnimationContainer>
-                      </IconCol>
-                  </IconRow>
-                </Container>
-                </CounterRow>
             </Section>
         )
     }
