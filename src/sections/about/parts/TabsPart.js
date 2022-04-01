@@ -13,7 +13,7 @@ class TabsPart extends React.Component {
 
     render() {
         const TabContainer = styled.div`
-            min-height: 400px;
+            min-height: 200px;
             margin-top: 20px;
             @media (max-width:767px) {
                 margin-top: 50px;
