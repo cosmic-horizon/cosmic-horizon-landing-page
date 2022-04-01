@@ -90,7 +90,6 @@ class TabsPart extends React.Component {
                         display: this.state.tab === "skills" ? "block" : "none"
                     }}>
                         <Progress value={65} text="Sale Completed" />
-                        <Progress value={35} text="Tokens Sold" />
                     </Tab>
                 </Tabs>
                 <Tabs>
