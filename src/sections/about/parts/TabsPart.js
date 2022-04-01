@@ -100,12 +100,12 @@ class TabsPart extends React.Component {
                                 "Option 1" : {
                                     title: "3 Year Lockup",
                                     institution: "$0.43",
-                                    description: "3 year lockup means, 1 year cliff and a following 2 year linear unlock"
+                                    description: "3 year lockup means, 1 year cliff and a following 2 year linear unlock. *Staking rewards are immediately liquid!"
                                 },
                                 "Option 2" :  {
                                     title: "1 Year Lockup",
                                     institution: "$0.63",
-                                    description: "Tokens are fully unlocked after 1 year"
+                                    description: "Tokens are fully unlocked after 1 year. *Staking rewards are immediately liquid!"
                                 }
                             }
                         }
