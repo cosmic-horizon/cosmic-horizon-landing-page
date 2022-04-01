@@ -181,6 +181,7 @@ class AboutPersonal extends React.Component {
 
         const InfoLink = styled.a`
             color: #f100ff;
+            font-size: 15px;
             transition: .5s;
             &:hover {
               color: #fff;
@@ -225,7 +226,6 @@ class AboutPersonal extends React.Component {
                                     Click the KYC link below to begin!
                                 </Text>
                                 <br/>
-                                <Separator />
                                 <Info>
                                     <InfoLinkContainer>
                                         <InfoLink target="_blank" href="https://cosmic-horizon.synaps.me">
