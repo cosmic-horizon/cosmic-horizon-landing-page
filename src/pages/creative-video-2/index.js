@@ -7,7 +7,6 @@ import AboutTwo from 'sections/about/AboutTwo.js'
 import ServicesTwo from 'sections/services/ServicesTwo.js'
 import PortfolioTwo from 'sections/portfolio/PortfolioTwo.js'
 import TestimonialsTwo from 'sections/testimonials/TestimonialsTwo.js'
-import TeamTwo from 'sections/team/TeamTwo.js'
 import ClientsTwo from 'sections/clients/ClientsTwo.js'
 import ContactCreative from 'sections/contact/ContactCreative.js'
 
