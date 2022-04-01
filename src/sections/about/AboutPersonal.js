@@ -176,7 +176,7 @@ class AboutPersonal extends React.Component {
         `
 
         const InfoLinkContainer = styled.div`
-            text-align: center;
+            text-align: left;
         `
 
         const InfoLink = styled.a`
