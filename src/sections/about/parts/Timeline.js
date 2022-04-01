@@ -48,7 +48,7 @@ class Timeline extends React.Component {
                 outline: none;
             }
             &.active, &:hover {
-                background-color: #04e5e5;
+                background-color: #f100ff;
             }
         `
 
