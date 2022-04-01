@@ -33,7 +33,6 @@ class Index extends React.Component {
           <ServicesOne />
           <PortfolioOne />
           <ClientsOne />
-          <TeamOne/>
           <ContactCreative />
         </Layout>
       </div>
