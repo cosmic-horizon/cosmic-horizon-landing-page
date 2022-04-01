@@ -223,6 +223,7 @@ class AboutPersonal extends React.Component {
                                     We have two investment options, both of which come at a discounted token price and varying lockup terms!
                                 </Text>
                                 <br/>
+                                <Text>MINIMUM $1000 INVESTMENT</Text>
                                 <br/>
                                 <Info>
                                     <InfoLinkContainer>

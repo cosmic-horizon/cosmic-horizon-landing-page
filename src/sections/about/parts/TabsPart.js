@@ -99,12 +99,12 @@ class TabsPart extends React.Component {
                         <Timeline data={{
                                 "Option 1" : {
                                     title: "3 Year Lockup",
-                                    institution: "$0.43",
+                                    institution: "$0.46 per token | 35% Discount",
                                     description: "3 year lockup means, 1 year cliff and a following 2 year linear unlock. *Staking rewards are immediately liquid!"
                                 },
                                 "Option 2" :  {
                                     title: "1 Year Lockup",
-                                    institution: "$0.63",
+                                    institution: "$0.63 per token | 10% Discount",
                                     description: "Tokens are fully unlocked after 1 year. *Staking rewards are immediately liquid!"
                                 }
                             }
