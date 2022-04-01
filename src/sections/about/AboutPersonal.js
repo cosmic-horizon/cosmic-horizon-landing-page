@@ -20,6 +20,7 @@ class AboutPersonal extends React.Component {
             overflow: hidden;
             background-color: #050505;
             padding-top: 50px;
+            padding-bottom:20px
             .particles {
                 position: absolute;
                 width: 100%;
