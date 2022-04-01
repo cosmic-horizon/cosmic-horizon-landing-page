@@ -149,7 +149,7 @@ class AboutPersonal extends React.Component {
         `
 
         const Text = styled.p`
-            font-size: 12px;
+            font-size: 15px;
             font-weight: 300;
             color: #c5c5c5;
         `
@@ -181,7 +181,7 @@ class AboutPersonal extends React.Component {
 
         const InfoLink = styled.a`
             color: #f100ff;
-            font-size: 20px;
+            font-size: 25px;
             transition: .5s;
             &:hover {
               color: #fff;
