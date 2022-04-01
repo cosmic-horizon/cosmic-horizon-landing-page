@@ -79,24 +79,18 @@ class TabsPart extends React.Component {
             <TabContainer>
                 <TabSelectors>
                     <TabSelector className={this.state.tab === "skills" ? "active" : ""} onClick={() => this.setState({tab: "skills"})}>
-                        Skills
+                        Details
                     </TabSelector>
                     <TabSelector className={this.state.tab === "experience" ? "active" : ""} onClick={() => this.setState({tab: "experience"})}>
-                        Experience
-                    </TabSelector>
-                    <TabSelector className={this.state.tab === "education" ? "active" : ""} onClick={() => this.setState({tab: "education"})}>
-                        Education
+                        Options
                     </TabSelector>
                 </TabSelectors>
                 <Tabs>
                     <Tab style={{
                         display: this.state.tab === "skills" ? "block" : "none"
                     }}>
-                        <Progress value={90} text="React" />
-                        <Progress value={80} text="Angular" />
-                        <Progress value={10} text="MongoDB" />
-                        <Progress value={100} text="PHP" />
-                        <Progress value={80} text="MySQL" />
+                        <Progress value={65} text="Sale Completed" />
+                        <Progress value={35} text="Tokens Sold" />
                     </Tab>
                 </Tabs>
                 <Tabs>
@@ -104,59 +98,14 @@ class TabsPart extends React.Component {
                             display: this.state.tab === "experience" ? "block" : "none"
                         }}>
                         <Timeline data={{
-                                "2001 - 2005" :  {
-                                    title: "Junior Developer",
-                                    institution: "Lorem Softwares",
-                                    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting"
+                                "1 Year Lockup" :  {
+                                    title: "$0.63",
                                 },
-                                "2007 - 2010" : {
-                                    title: "Senior Developer",
-                                    institution: "Ipsum Technologies",
-                                    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting"
-                                },
-                                "2012 - 2018" : {
-                                    title: "Data Scientist",
-                                    institution: "Dolor AI",
-                                    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting"
-                                },
-                                "2018 - Now" : {
-                                    title: "AI Scientist",
-                                    institution: "Ipsum AI",
-                                    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting"
+                                "3 Year Lockup" : {
+                                    title: "$0.46",
+                                    institution: "1 year cliff",
+                                    description: "3 year lockup means 1 year cliff and a following 2 year linear unlock"
                                 }
-                            }
-                        }
-                    />
-                    </Tab>
-                    <Tab style={{
-                            display: this.state.tab === "education" ? "block" : "none"
-                        }}>
-                        <Timeline data={{
-                                "2001 - 2005" :  {
-                                    title: "High School Degree",
-                                    institution: "Lorem High School",
-                                    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting"
-                                },
-                                "2007 - 2010" : {
-                                    title: "College Degree",
-                                    institution: "Ipsum College",
-                                    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting"
-                                },
-                                "2012 - 2018" : {
-                                    title: "B.Sc in Computer Science",
-                                    institution: "Dolor University",
-                                    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting"
-                                },
-                                "2018 - Now" : {
-                                    title: "PhD in AI",
-                                    institution: "Amet University",
-                                    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting"
-                                },
-                                "2019 - Now" : {
-                                    title: "PhD in Data Science",
-                                    institution: "Dolor University",
-                                    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting"
-                                },
                             }
                         }
                     />

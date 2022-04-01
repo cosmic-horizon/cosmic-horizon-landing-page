@@ -219,23 +219,21 @@ class AboutPersonal extends React.Component {
                                     Qwoyn Studios is inviting the community to bootstrap the Cosmic Horizon Network via a KYC'd private 
                                     token sale. This is your chance to play and important role in the community and build a decentralized gaming experience. 
                                     We have two investment options, both of which come at a discounted token price and varying lockup terms!
-                                    1 year lockups - $0.46 | 3 year lockups - $0.63 (3 year lockups = 1 year cliff and 2 year linear lockup)
                                 </Text>
                                 <br/>
                                 <Text>
                                     Click the KYC link below to begin!
                                 </Text>
-                                    <Info>
-                                        <InfoTitle>
-                                            KYC
-                                        </InfoTitle>
-                                        <InfoLinkContainer>
-                                            <InfoLink target="_blank" href="https://cosmic-horizon.synaps.me">
-                                                Cosmic Horizon KYC Portal
-                                            </InfoLink>
-                                        </InfoLinkContainer>
-                                    </Info>
-                                
+                                <br/>
+                                <Separator />
+                                <Info>
+                                    <InfoLinkContainer>
+                                        <InfoLink target="_blank" href="https://cosmic-horizon.synaps.me">
+                                            Cosmic Horizon KYC Portal
+                                        </InfoLink>
+                                    </InfoLinkContainer>
+                                </Info>
+                                <TabsPart />
                             </AnimationContainer>
                         </Col>
                     </Row>
