@@ -222,14 +222,10 @@ class AboutPersonal extends React.Component {
                                     We have two investment options, both of which come at a discounted token price and varying lockup terms!
                                 </Text>
                                 <br/>
-                                <Text>
-                                    Click the KYC link below to begin!
-                                </Text>
-                                <br/>
                                 <Info>
                                     <InfoLinkContainer>
                                         <InfoLink target="_blank" href="https://cosmic-horizon.synaps.me">
-                                            Cosmic Horizon KYC Portal
+                                            Start with KYC Here!
                                         </InfoLink>
                                     </InfoLinkContainer>
                                 </Info>
