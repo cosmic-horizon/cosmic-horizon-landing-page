@@ -98,13 +98,15 @@ class TabsPart extends React.Component {
                             display: this.state.tab === "experience" ? "block" : "none"
                         }}>
                         <Timeline data={{
-                                "1 Year Lockup" :  {
-                                    title: "$0.63",
+                                "Option 1" : {
+                                    title: "3 Year Lockup",
+                                    institution: "$0.43",
+                                    description: "3 year lockup means, 1 year cliff and a following 2 year linear unlock"
                                 },
-                                "3 Year Lockup" : {
-                                    title: "$0.46",
-                                    institution: "1 year cliff",
-                                    description: "3 year lockup means 1 year cliff and a following 2 year linear unlock"
+                                "Option 2" :  {
+                                    title: "1 Year Lockup",
+                                    institution: "$0.63",
+                                    description: "Tokens are fully unlocked after 1 year"
                                 }
                             }
                         }
