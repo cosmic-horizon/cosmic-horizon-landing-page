@@ -6,8 +6,7 @@ import Hero from 'sections/hero/Hero.js'
 import AboutOne from 'sections/about/AboutOne.js'
 import ServicesOne from 'sections/services/ServicesOne.js'
 import PortfolioOne from 'sections/portfolio/PortfolioOne.js'
-import TestimonialsOne from 'sections/testimonials/TestimonialsOne.js'
-import TeamOne from 'sections/team/TeamOne.js'
+import AboutPersonal from '../sections/about/AboutPersonal'
 import ClientsOne from 'sections/clients/ClientsOne.js'
 import ContactCreative from 'sections/contact/ContactCreative.js'
 
@@ -30,6 +29,7 @@ class Index extends React.Component {
         >
           <Hero />
           <AboutOne />
+          <AboutPersonal/>
           <ServicesOne />
           <PortfolioOne />
           <ClientsOne />
