@@ -150,6 +150,19 @@ class AboutPersonal extends React.Component {
             }
         `
 
+        const IconContainer = styled.div`
+            width: 150px;
+            height: 150px;
+            margin: auto;
+            padding: 35px;
+            text-align: center;
+            position: relative;
+            bottom: 75px;
+            background-color: #000000;
+            border-radius: 150px;
+            transition: .5s;
+        `
+
         const InfoTitle = styled.h4`
             font-size: 35px;
             color: #fff;
