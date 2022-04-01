@@ -32,7 +32,6 @@ class Index extends React.Component {
           <AboutPersonal/>
           <PortfolioOne />
           <ClientsOne />
-          <ServicesOne />
           <ContactCreative />
         </Layout>
       </div>
