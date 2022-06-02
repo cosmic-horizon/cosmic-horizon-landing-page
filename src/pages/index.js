@@ -29,7 +29,6 @@ class Index extends React.Component {
         >
           <Hero />
           <AboutOne />
-          <AboutPersonal/>
           <PortfolioOne />
           <ClientsOne />
           <ContactCreative />
