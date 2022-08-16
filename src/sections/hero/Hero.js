@@ -223,6 +223,8 @@ class Hero extends React.Component {
                                         strings: [
                                             'Cosmos SDK Powered',
                                             'Elite Space Trading Game'
+                                            'Brought To You By'
+                                            'Qwoyn Studios'
                                         ],
                                         autoStart: true,
                                         loop: true,
