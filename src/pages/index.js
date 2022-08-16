@@ -28,7 +28,6 @@ class Index extends React.Component {
           sections={['home']}
         >
           <Hero />
-          <AboutOne />
           <PortfolioOne />
           <ClientsOne />
           <ContactCreative />
