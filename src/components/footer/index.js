@@ -41,6 +41,7 @@ class Footer extends React.Component{
                     <FontAwesomeIcon icon={faYoutube} className="social_icon" onClick={() => window.open('https://www.youtube.com')} />
                 </SocialIcons>
                 <br/><br/>
+                <Col md={12} />
                 <Text>
                 © 2022 Qwoyn Studios S-LLC, All rights reserved.
                </Text>
