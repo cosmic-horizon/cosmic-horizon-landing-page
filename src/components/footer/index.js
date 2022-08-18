@@ -35,16 +35,11 @@ class Footer extends React.Component{
         
         return (
             <FooterMain>
-                <SocialIcons>
-                    <FontAwesomeIcon icon={faGithub} className="social_icon" onClick={() => window.open('https://www.github.com/cosmic-horizon')}/>
-                    <FontAwesomeIcon icon={faTwitter} className="social_icon" onClick={() => window.open('https://www.twitter.com/CoHo_Cosmos')} />
-                    <FontAwesomeIcon icon={faYoutube} className="social_icon" onClick={() => window.open('https://www.youtube.com')} />
-                </SocialIcons>
-            </FooterMain>
-            <br/><br/>
-            <Text>
-            © 2022 Qwoyn Studios S-LLC, All rights reserved.
-            </Text>            
+                <br/>
+                <Text>
+                © 2022 Qwoyn Studios S-LLC, All rights reserved.
+                </Text>   
+            </FooterMain>         
         )
     }
 }
