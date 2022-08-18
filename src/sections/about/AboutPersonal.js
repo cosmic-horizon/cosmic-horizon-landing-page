@@ -219,7 +219,7 @@ class AboutPersonal extends React.Component {
                                 <Heading>What is Cosmic Horizon</Heading>
                                 <Separator />
                                 <Text>
-                                    Cosmic Horizon is a p2e strategy space-trading/conquest MMRPG, developed by Qwoyn Studios and powered by the Cosmos 
+                                    Cosmic Horizon is a play-and-earn strategy space-trading/conquest MMRPG, developed by Qwoyn Studios and powered by the Cosmos 
                                     SDK. Cosmic Horizon takes inspiration from adventure and strategy games of the 1990s and updates the established 
                                     concepts with a modern blockchain-based approach. The core elements of the game consist of the Universe (divided 
                                     into thousands of individual sectors) and the elements within it, namely: Players, Ships, Planets (including special 
