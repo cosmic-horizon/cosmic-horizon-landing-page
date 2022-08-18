@@ -32,7 +32,6 @@ class Footer extends React.Component{
             font-weight: 300;
             color: #c5c5c5;
           `
-    }
         
         return (
             <FooterMain>
