@@ -222,8 +222,8 @@ class Hero extends React.Component {
                                         options={{
                                         strings: [
                                             'Cosmos SDK Powered',
-                                            'Elite Space Trading Game'
-                                            'Brought To You By'
+                                            'Elite Space Trading Game',
+                                            'Brought To You By',
                                             'Qwoyn Studios'
                                         ],
                                         autoStart: true,
@@ -287,6 +287,7 @@ class Hero extends React.Component {
                                 </Row>
                             </Container>
                     </BottomContent>
+                    <br/><br/><br/><br/><br/>
                 </Section>
         )
     }
