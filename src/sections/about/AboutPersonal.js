@@ -203,7 +203,7 @@ class AboutPersonal extends React.Component {
         return(
             <Section id="about">
                 <AboutContainer>
-                    <br/><br/><br/><br/><br/>
+                    <br/><br/><br/><br/><br/><br/><br/>
                     <Row>
                         <LeftCol md={6}>
                             <AnimationContainer animation="fadeIn">
