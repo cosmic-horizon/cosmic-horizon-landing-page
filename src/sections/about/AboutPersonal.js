@@ -215,20 +215,21 @@ class AboutPersonal extends React.Component {
                         </LeftCol>
                         <Col md={6}>
                             <AnimationContainer animation="fadeIn">
-                                <Heading>Private Token Sale</Heading>
+                                <Heading>What is Cosmic Horizon</Heading>
                                 <Separator />
                                 <Text>
-                                    Qwoyn Studios is inviting the community to bootstrap the Cosmic Horizon Network via a KYC'd private 
-                                    token sale. This is your chance to play an important role in the community and build a decentralized gaming experience. 
-                                    We have two investment options, both of which come at a discounted token price and varying lockup terms!
+                                    Cosmic Horizon is a p2e strategy space-trading/conquest MMRPG, developed by Qwoyn Studios and powered by the Cosmos 
+                                    SDK. Cosmic Horizon takes inspiration from adventure and strategy games of the 1990s and updates the established 
+                                    concepts with a modern blockchain-based approach. The core elements of the game consist of the Universe (divided 
+                                    into thousands of individual sectors) and the elements within it, namely: Players, Ships, Planets (including special 
+                                    planets) and Ports (including special ports). Players will interact with the world and one another to gain resources 
+                                    and exert control over sections of the universe.
                                 </Text>
-                                <br/>
-                                <Text>MINIMUM $1000 INVESTMENT</Text>
                                 <br/>
                                 <Info>
                                     <InfoLinkContainer>
-                                        <InfoLink target="_blank" href="https://cosmic-horizon.synaps.me">
-                                            Start with KYC Here!
+                                        <InfoLink target="_blank" href="https://docs.google.com/document/u/2/d/e/2PACX-1vSaIWZF6REwC6yQsj1KCFtmjKFZwMTdo7rdAxsv-JqL8cTJD1NIGq0UIm1X0qEO1w/pub">
+                                            Read the whitepaper here!
                                         </InfoLink>
                                     </InfoLinkContainer>
                                 </Info>
