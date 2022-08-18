@@ -287,7 +287,6 @@ class Hero extends React.Component {
                                 </Row>
                             </Container>
                     </BottomContent>
-                    <br/><br/><br/><br/><br/>
                 </Section>
         )
     }
