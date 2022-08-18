@@ -33,7 +33,7 @@ class Footer extends React.Component{
             color: #c5c5c5;
           `
             }
-        `
+        
         return (
             <FooterMain>
                 <SocialIcons>
