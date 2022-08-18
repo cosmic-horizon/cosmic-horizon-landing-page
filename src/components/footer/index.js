@@ -9,7 +9,7 @@ class Footer extends React.Component{
     render() {
         const FooterMain = styled.div`
             background-color: #111;
-            height: 50px;
+            height: 100px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -40,7 +40,7 @@ class Footer extends React.Component{
                     <FontAwesomeIcon icon={faTwitter} className="social_icon" onClick={() => window.open('https://www.twitter.com/CoHo_Cosmos')} />
                     <FontAwesomeIcon icon={faYoutube} className="social_icon" onClick={() => window.open('https://www.youtube.com')} />
                 </SocialIcons>
-                <br/>
+                <br/><br/>
                 <Text>
                 © 2022 Qwoyn Studios S-LLC, All rights reserved.
                </Text>
