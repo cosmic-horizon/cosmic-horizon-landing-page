@@ -25,6 +25,13 @@ class Footer extends React.Component{
                 &:hover {
                     color: #04e5e5;
                 }
+          `
+        
+          const Text = styled.p`
+            font-size: 15px;
+            font-weight: 300;
+            color: #c5c5c5;
+          `
             }
         `
         return (
