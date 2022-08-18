@@ -9,6 +9,7 @@ import PortfolioOne from 'sections/portfolio/PortfolioOne.js'
 import AboutPersonal from '../sections/about/AboutPersonal'
 import ClientsOne from 'sections/clients/ClientsOne.js'
 import ContactCreative from 'sections/contact/ContactCreative.js'
+import AboutPersonal from 'sections/about/AboutPersonal.js'
 
 class Index extends React.Component {
 
@@ -28,6 +29,7 @@ class Index extends React.Component {
           sections={['home']}
         >
           <Hero />
+          <AboutPersonal/>  
           <PortfolioOne />
           <ClientsOne />
           <ContactCreative />
