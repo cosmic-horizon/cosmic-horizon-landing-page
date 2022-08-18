@@ -204,6 +204,7 @@ class AboutPersonal extends React.Component {
             <Section id="about">
                 <AboutContainer>
                     <br/><br/><br/><br/><br/><br/><br/>
+                    <hr/>
                     <Row>
                         <LeftCol md={6}>
                             <AnimationContainer animation="fadeIn">
@@ -237,6 +238,7 @@ class AboutPersonal extends React.Component {
                             </AnimationContainer>
                         </Col>
                     </Row>
+                    <br/><hr/>
                 </AboutContainer>
             </Section>
         )
