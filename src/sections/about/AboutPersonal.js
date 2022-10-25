@@ -230,7 +230,7 @@ class AboutPersonal extends React.Component {
                                 <br/>
                                 <Info>
                                     <InfoLinkContainer>
-                                        <InfoLink target="_blank" href="https://docs.google.com/document/u/2/d/e/2PACX-1vSaIWZF6REwC6yQsj1KCFtmjKFZwMTdo7rdAxsv-JqL8cTJD1NIGq0UIm1X0qEO1w/pub">
+                                        <InfoLink target="_blank" href="https://drive.google.com/file/d/1AWfror6UuM1ijG3qEuVg8-F0AdJS63H-/view">
                                             Read the whitepaper here!
                                         </InfoLink>
                                     </InfoLinkContainer>
